@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background-color: #EB2F4E;
+}
+
+.container {
+  display: block;
+  position: relative;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  min-height: 100%;
+  margin-bottom: 80px;
+}
+
+.container footer {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  background-color: #0EED38;
+  text-align: center;
+}
+
+footer img {
+  margin-right: 20px;
+}
