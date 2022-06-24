@@ -9,12 +9,6 @@ export const Container = styled.div`
     background-color: #cecece;
     padding: 30px;
     border-radius: 5px;
-
-    h1 {
-        margin: 0;
-        margin-bottom: 20px;
-        color: #ff294d81;
-    }
     
     input, select {
         margin-bottom: 10px;

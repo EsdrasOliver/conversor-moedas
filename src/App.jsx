@@ -1,6 +1,8 @@
 
 import { useState } from "react"
-import { Container } from "./styles"
+import { Container } from "./AppStyles"
+
+import { Header } from "./components/Header"
 
 import github from '../assets/github.svg'
 import instagram from '../assets/instagram.svg'
@@ -54,8 +56,8 @@ function App() {
       <div className="App">
         <Container>
           <div>
-            <h1>Conversor de moedas</h1>
-            <p>Converte de Real para Dolar americano, Euro e Bitcoin</p>
+            <Header></Header>
+            
             <form onSubmit={handleSumbit}>
 
               <label 
