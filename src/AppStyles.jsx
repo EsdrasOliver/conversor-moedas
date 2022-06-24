@@ -10,24 +10,4 @@ export const Container = styled.div`
     padding: 30px;
     border-radius: 5px;
     
-    input, select {
-        margin-bottom: 10px;
-        padding: 4px;
-        margin-top: 4px;
-    }
-
-    input[type=submit] {
-        padding: 8px;
-        background-color: #EB2F4E;
-        border: none;
-        border-radius: 5px;
-        color: #fff;
-        font-weight: bolder;
-        font-size: 16px;
-    }
-    input[type=submit]:hover {
-        cursor: pointer;
-        background-color: #f1778b;
-    }
-    
 `

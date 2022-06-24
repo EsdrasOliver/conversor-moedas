@@ -1,0 +1,11 @@
+.container footer {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background-color: #0EED38;
+    text-align: center;
+}
+  
+footer img {
+    margin-right: 20px;
+}
