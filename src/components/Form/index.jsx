@@ -50,27 +50,27 @@ export function Form() {
                 <label 
                 htmlFor="moeda"
                 >
-                Escolha a moeda: 
+                  Escolha a moeda: 
                 </label> <br/>
                 <select 
-                name="moeda" 
-                id="moeda" 
-                required 
-                onChange={(e) => setMoedaSelected(e.target.value)}
+                  name="moeda" 
+                  id="moeda" 
+                  required 
+                  onChange={(e) => setMoedaSelected(e.target.value)}
                 > 
-                <option disabled value="Selecione a moeda">Selecione a moeda</option>
-                <option selected value="USD">Dolar americano</option> 
-                <option value="EUR">Euro</option>  
-                <option value="BTC">Bitcoin</option>  
+                  <option disabled value="Selecione a moeda">Selecione a moeda</option>
+                  <option selected value="USD">Dolar americano</option> 
+                  <option value="EUR">Euro</option>  
+                  <option value="BTC">Bitcoin</option>  
                 </select> <br/>
 
                 <label htmlFor="valor">Valor:</label> <br/>
                 <input 
-                type="number" 
-                name="valor" 
-                id="valor" 
-                placeholder="Digite o valor em R$" 
-                onChange={(e) => setValor((e.target.value))}
+                  type="number" 
+                  name="valor" 
+                  id="valor" 
+                  placeholder="Digite o valor em R$" 
+                  onChange={(e) => setValor((e.target.value))}
                 /> <br/>
 
                 <input type="submit" id="calcular" value="Calcular" />
