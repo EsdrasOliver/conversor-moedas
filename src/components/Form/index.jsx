@@ -56,10 +56,11 @@ export function Form() {
                   name="moeda" 
                   id="moeda" 
                   required 
+                  defaultValue={"Selecione a moeda"}
                   onChange={(e) => setMoedaSelected(e.target.value)}
                 > 
                   <option disabled value="Selecione a moeda">Selecione a moeda</option>
-                  <option selected value="USD">Dolar americano</option> 
+                  <option value="USD">Dolar americano</option> 
                   <option value="EUR">Euro</option>  
                   <option value="BTC">Bitcoin</option>  
                 </select> <br/>
