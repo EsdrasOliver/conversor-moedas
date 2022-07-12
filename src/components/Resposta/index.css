@@ -1,0 +1,6 @@
+@media (max-width: 667px) {
+    p {
+        text-align: justify;
+        font-size: 15px;
+    }
+}

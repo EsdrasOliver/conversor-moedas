@@ -4,7 +4,7 @@ export function Header() {
     return (
         <>
             <h1>Conversor de moedas</h1>
-            <p>Converte de Real para Dolar americano, Euro e Bitcoin</p>
+            <p className='paragrafo'>Converte de Real para Dolar americano, Euro e Bitcoin</p>
         </>
     )
 }

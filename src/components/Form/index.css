@@ -24,8 +24,18 @@ input[type=submit] {
     color: #fff;
     font-weight: bolder;
     font-size: 16px;
+    transition: 2s;
 }
 input[type=submit]:hover {
     cursor: pointer;
     background-color: #f1778b;
+}
+
+@media (max-width: 667px) {
+    label {
+        font-size: 14px;
+    }
+    input[type=submit] {
+        display: block;
+    }
 }

@@ -3,3 +3,15 @@ h1 {
     margin-bottom: 20px;
     color: #ff294d81;
 }
+
+@media (max-width: 667px){
+    h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .paragrafo {
+        font-size: 14px;
+        text-align: center;
+    }
+}
