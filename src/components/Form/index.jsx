@@ -4,7 +4,6 @@ import { useState } from "react"
 const API = 'https://economia.awesomeapi.com.br/json/last/'
 
 export function Form() {
-
     const [moedaSelected, setMoedaSelected] = useState()
     const [valor, setValor] = useState('')
 
@@ -40,7 +39,6 @@ export function Form() {
     
           })
           .catch(e => console.log(e))
-    
       }
     
     return (
