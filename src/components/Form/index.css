@@ -2,13 +2,13 @@ input, select {
     margin-bottom: 10px;
     padding: 7px;
     margin-top: 4px;
-    width: 70%;
+    width: 100%;
     border-radius: 5px;
     border: none;
 }
 
 input[type=number] {
-    width: 67%;
+    width: 96%;
     padding: 7px;
 }
 

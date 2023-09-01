@@ -1,22 +1,22 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   background-color: #EB2F4E;
 }
 
 .container {
-  display: block;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 .App {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-top: 30px;
-  min-height: 100%;
-  margin-bottom: 80px;
+  margin-bottom: 15rem;
 }

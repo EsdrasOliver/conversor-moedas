@@ -63,12 +63,11 @@ export function Form() {
                   <option value="BTC">Bitcoin</option>  
                 </select> <br/>
 
-                <label htmlFor="valor">Valor:</label> <br/>
+                <label htmlFor="valor">Digite o valor:</label> <br/>
                 <input 
                   type="number" 
                   name="valor" 
-                  id="valor" 
-                  placeholder="Digite o valor em R$" 
+                  id="valor"  
                   onChange={(e) => setValor((e.target.value))}
                 /> <br/>
 
