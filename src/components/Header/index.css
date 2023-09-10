@@ -1,7 +1,8 @@
 h1 {
     margin: 0;
     margin-bottom: 20px;
-    color: #ff294d81;
+    /* color: #ff294d81; */
+    color: #F67280;
 }
 
 @media (max-width: 667px){

@@ -2,7 +2,8 @@
     position: absolute;
     height: 10rem;
     width: 100vw;
-    background-color: #0EED38;
+    /* background-color: #0EED38; */
+    background-color: #96f7d2; 
     text-align: center;
     bottom: 0;
 }

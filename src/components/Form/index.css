@@ -18,7 +18,8 @@ input:focus, select:focus {
 
 input[type=submit] {
     padding: 8px;
-    background-color: #EB2F4E;
+    background-color: #f05c74;
+    /* background-color: #F67280; */
     border: none;
     border-radius: 5px;
     color: #fff;
@@ -28,7 +29,8 @@ input[type=submit] {
 }
 input[type=submit]:hover {
     cursor: pointer;
-    background-color: #f1778b;
+    /* background-color: #f1778b; */
+    opacity: 0.7;
 }
 
 @media (max-width: 667px) {
